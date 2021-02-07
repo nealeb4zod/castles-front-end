@@ -11,7 +11,11 @@ const MainContainer = () => {
       })
       .then();
   }, []);
-  return null;
+  return (
+    <>
+      <h1>Castles of Scotland</h1>
+    </>
+  );
 };
 
 export default MainContainer;
